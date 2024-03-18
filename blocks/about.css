@@ -14,13 +14,11 @@
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
-  left: 350;
 }
 
 .about__paragraph {
-  margin: 0 0 20;
+  margin: 0 0 20px;
   color: #fff;
-  margin-top: 0;
   max-width: 660px;
 }
 
@@ -37,15 +35,15 @@
   margin: 0%;
 }
 
-.about__circle {
+.about__circle,
+.about__circle_animation_blurred {
   background-color: #2f80ed;
-  padding: 0%;
+  padding: 0;
   position: absolute;
   top: -152px;
   left: -129px;
   width: 426px;
   height: 426px;
-  padding: 0;
   border-radius: 50%;
 }
 
@@ -65,13 +63,4 @@
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
   transform: scale(1.1);
-  background-color: #2f80ed;
-  border-radius: 50%;
-  padding: 0;
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
 }
