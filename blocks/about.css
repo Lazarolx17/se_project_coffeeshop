@@ -22,6 +22,9 @@
   max-width: 660px;
 }
 
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
 .about__title {
   max-width: 251px;
   padding: 100px 0 0 80px;
@@ -35,8 +38,7 @@
   margin: 0%;
 }
 
-.about__circle,
-.about__circle_animation_blurred {
+.about__circle {
   background-color: #2f80ed;
   padding: 0;
   position: absolute;
